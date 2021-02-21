@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Ecommerce App</title>
+    <style>
+        div{
+            background-color: rgb(241, 213, 151);
+            text-align: center;
+    }
+    
+    </style>
+
+</head>
+<body>
+    <div>
+        <hr><h2>This is Ecommerce Web Page</h2> <hr>  
+    </div>
+    
+    <center>
+        <h3>if you want to add and get item, then go to </h3>
+            <a href="{% url 'api'  %}">API-1</a>
+        <hr>
+        <h3>if you want to filter and pagination, then go to </h3>
+        <a href="{% url 'api1'  %}" target="_blank">API-2</a>
+        <hr>
+    </center>
+    
+</body>
+</html>
